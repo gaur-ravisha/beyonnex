@@ -1,7 +1,7 @@
 
 
 
-[![Unit Tests](https://github.com/gaur-ravisha/beyonnex-anagam/actions/workflows/build.yml/badge.svg)](https://github.com/gaur-ravisha/beyonnex-anagam/actions/workflows/build.yml/badge.svg)
+[![Unit Tests](https://github.com/gaur-ravisha/beyonnex/actions/workflows/build.yml/badge.svg)](https://github.com/gaur-ravisha/beyonnex/actions/workflows/build.yml/badge.svg)
 
 # beyonnex-anagam
 
