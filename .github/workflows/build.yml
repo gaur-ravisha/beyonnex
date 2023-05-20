@@ -1,0 +1,32 @@
+name: Unit Tests
+
+#trigger for running the actions
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ main ]
+  push:
+
+
+
+jobs:
+  beyonnex-anagram:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: set java version to 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Echo maven and java version
+        run: |
+          mvn --version
+          java --version
+
+      - name: Run mvn clean test
+        run: mvn clean test
